@@ -1,5 +1,5 @@
 ---
-const {text, href, newTab} = Astro.props;
+const {text, href, newTab, underline} = Astro.props;
 ---
 
 <div class="announcement-banner__container">
@@ -27,5 +27,9 @@ const {text, href, newTab} = Astro.props;
 }
 .announcement-banner__container p {
   margin: 0 auto;
+}
+
+.announcement-banner__container a {
+  text-decoration: none;
 }
 </style>
